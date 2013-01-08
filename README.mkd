@@ -1,0 +1,3 @@
+# Rails Girls Stuff
+
+Talks, apps and other things for the Rails Girls conference(s) (http://railsgirls.com/)
