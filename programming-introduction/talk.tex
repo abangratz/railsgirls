@@ -1,0 +1,92 @@
+\documentclass[style=husky,display=slides,clock]{powerdot}
+\title{Programming for Rails - An Introduction}
+\author{Anton Bangratz\\
+	\url{https://abangratz.github.com/}\\
+	\url{@tony_xpro}\\
+\url{anton.bangratz@radarservices.com}}
+\date{2012-01-18}
+
+\begin{document}
+\maketitle
+\section{History}
+\begin{slide}{Bugs, Bytes and Nibbles}
+	\vspace{\stretch{1}}
+	\centering
+	\onslide*{1}{Real Bugs!}
+	\onslide*{2}{Bytes, Bits, Words, oh my!}
+	\onslide*{3}{Nibbles and Binary Arithmetic}
+	\vspace{\stretch{1}}
+\end{slide}
+\section{Consider a Program}
+\begin{slide}{What is a program?}
+	\vspace{\stretch{1}}
+	\centering
+	\onslide*{1}{A series of instructions}
+	\onslide*{2}{Machine Code vs Programming Languages}
+	\onslide*{3}{Compilers and Interpreters}
+	\vspace{\stretch{1}}
+\end{slide}
+\section{Ruby}
+\begin{slide}{Why did I choose Ruby?}
+	\vspace{\stretch{1}}
+	\centering
+	\onslide*{1}{Makes Programmers Happy!}
+	\onslide*{2}{MINASWAN - The Community}
+	\onslide*{3}{Easy to learn, a challenge to excel in}
+	\vspace{\stretch{1}}
+\end{slide}
+\section{Ruby on Rails}
+\begin{slide}{What is RoR?}
+	\vspace{\stretch{1}}
+	\centering
+	\onslide*{1}{Web Application Framework}
+	\onslide*{2}{Code Less, Accomplish More}
+	\onslide*{3}{Convention over Configuration}
+	\vspace{\stretch{1}}
+\end{slide}
+\begin{slide}{Architecture}
+	\vspace{\stretch{1}}
+	\centering
+	\onslide*{1}{MVC}
+	\onslide*{2}{Convention over Configuration}\pause
+	\onslide*{3-8}{Components}\pause
+	\begin{itemize}
+		\item \onslide+{4}{Action Pack (Controller, Dispatch, View)}
+		\item \onslide+{5}{Action Mailer}
+		\item \onslide+{6}{Active Model, Active Record, Active Resource}
+		\item \onslide+{7}{Active Support}
+		\item \onslide+{8}{Railties}
+	\end{itemize}
+	\vspace{\stretch{1}}
+\end{slide}
+\begin{slide}{Web Application Components}
+	\vspace{\stretch{1}}
+	\centering
+	\begin{itemize}
+		\item \onslide+{1-}{Storage} \onslide+{2-}{$\rightarrow$ ORM}
+		\item \onslide+{3-}{Infrastructure} \onslide+{4-}{$\rightarrow$ Backend (Rack, Thin, Unicorn, webrick)}
+		\item \onslide+{5-}{Logic} \onslide+{6-}{$\rightarrow$ RoR, Ruby}
+		\item \onslide+{7-}{Structure} \onslide+{8-}{$\rightarrow$ HTML, CSS, XML, \ldots }
+	\end{itemize}
+	\vspace{\stretch{1}}
+\end{slide}
+\begin{slide}{Helpers}
+	\vspace{\stretch{1}}
+	\centering
+	\begin{itemize}[type=1]
+		\item Generators
+		\item Bundler
+		\item Exchangable Components (ORM, Test Environment, \ldots )
+		\item Guides and APIDock
+		\item The Community
+	\end{itemize}
+	\vspace{\stretch{1}}
+\end{slide}
+\section[tocsection=hidden,slide=false]{The End}
+\begin{emptyslide}{}
+	\vspace{\stretch{1}}
+	\centering
+	\Huge{That's it, folks.}
+	\vspace{\stretch{1}}
+\end{emptyslide}
+\end{document}
